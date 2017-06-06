@@ -1,12 +1,12 @@
 {
   "name": "react-anim",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development babel-node --presets env ./tools/devServer.js",
-    "start": "NODE_ENV=production babel-node --presets env ./tools/devServer.js",
+    "start": "",
     "build": "webpack -p --config ./tools/webpack.config.prod.babel.js",
     "tunnel": "browser-sync start --proxy localhost:8080 --no-ghost-mode --tunnel devstack"
   },
@@ -44,7 +44,6 @@
     "pug-loader": "^2.3.0",
     "react-hot-loader": "^1.3.1",
     "react-transition-group": "^1.1.3",
-    "react-transition-group-plus": "^0.5.0-alpha.1",
     "style-loader": "^0.18.1",
     "styled-components": "^2.0.0",
     "webpack": "^2.6.1",
