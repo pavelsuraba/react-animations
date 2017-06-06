@@ -11,5 +11,8 @@ Used libraries:
 * anime.js [http://animejs.com](http://animejs.com)
 * ReactTransitionGroup [https://github.com/reactjs/react-transition-group](https://github.com/reactjs/react-transition-group)
 
+Drawbacks:
+* animated component has to be a class in order to get a reference to it.
+
 Demo:
 ![demo](./anim.gif)
